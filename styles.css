@@ -1,0 +1,93 @@
+/* Stiluri generale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.banner p {
+    margin-top: 10px;
+}
+
+/* Containerul principal */
+.main-container {
+    display: flex;
+}
+
+/* Meniul lateral */
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+/* Secțiunea de conținut */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 2em;
+}
+
+footer {
+    display: none;
+}
+
+/* Stiluri pentru linkuri (ex. Instagram, Facebook) */
+#instagram, #facebook, #email {
+    display: none;  /* Ascunde secțiunile până la clic */
+}
+.banner {
+    width: 100%;
+    height: 100px;
+    background-image: url('imagine1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
